@@ -1,5 +1,7 @@
 import { Suspense } from 'react'
 
+export const dynamic = 'force-dynamic'
+
 const getPromiseData = (ms: number) => {
   return new Promise<number>((resolve) => {
     setTimeout(() => {
